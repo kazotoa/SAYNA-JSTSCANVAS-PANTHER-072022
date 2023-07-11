@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('../../Illustrations_&_Logo/all_pages/arrière_plan.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: #fff;
+    // cursor: none;
+}
+
+
+/* ----------------------------- CURSOR ----------------------------- */
+#cursor {
+    position: relative;
+    display: block;
+    height: 30px;
+    filter: drop-shadow(0px 0px 4px black)
+    // z-index: 30000;
+}
+
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+/* ----------------------------- HERITAGE ----------------------------- */
+
+
+.d-flex {
+    display: flex;
+}
+.flex_center {
+    justify-content: center;
+    align-items: center;
+
+}
+.flex_between {
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.flex_end {
+    justify-content: flex-end;
+    align-items: center;
+}
+.flex_start {
+    justify-content: flex-start;
+    align-items: center;
+}
+.flex_around {
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flex_evenly{
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.d_column {
+    flex-direction: column;
+}
+
+.w100 {
+    width: 100%;
+}
+
+.border{
+    border: 2px solid #bcbbbd48;
+}
+
+.test {
+    border: 1px solid #fff;
+}
+.test2 {
+    border: 1px solid green;
+}
+.test3 {
+    border: 1px solid yellow;
+}
+.test4 {
+    border: 1px solid red;
+}

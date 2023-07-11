@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'Panthera';
+    src: url('../../Fonts/Panthera/PantheraRegular-MVZ9J.ttf');
+}
+@font-face {
+    font-family: 'Cantarell';
+    src: url('../../Fonts/cantarell/Cantarell-Regular.ttf');
+}
+@font-face {
+    font-family: 'Beyno';
+    src: url('../../Fonts/beyno/BEYNO.ttf');
+}
+@font-face {
+    font-family: 'Wakanda';
+    src: url('../../Fonts/wakanda_forever/WakandaForever-Regular.ttf');
+}
+
+
+h1 {
+    font-family: 'Panthera';
+    font-size: 68px;
+}
+
+h2 {
+    font-family: 'Beyno';
+    font-size: 32px;
+    color: var(--silver);
+}
+
+p, a, h5, h4, h3, li {
+    font-family: 'Cantarell';
+    font-size: 16px;
+}
+
+.citation {
+    font-family: 'Cantarell';
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+.p_footer {
+    font-family: 'Cantarell';
+    font-size: 10px;
+}

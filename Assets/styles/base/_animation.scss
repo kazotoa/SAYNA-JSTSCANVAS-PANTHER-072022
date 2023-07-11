@@ -1,0 +1,61 @@
+/* -------------------- FOR TEXT --------------------------*/
+
+.fadein {
+    position: relative;
+    animation-name: textmove;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+}
+// p, h1, h2, h3, h4, h6, h5 {
+//     position: relative;
+//     animation-name: textmove;
+//     animation-duration: 4s;
+//     animation-iteration-count: 1;
+// }
+
+@keyframes textmove {
+    from {right: 300px;}
+    to {right: 0px;}
+}
+
+/* -------------------- FOR HOVER --------------------------*/
+
+.reseau .icon {
+
+    img:hover {
+        filter: grayscale(100%) hue-rotate(200deg);
+    }
+}
+
+.sidebar .container .row{
+
+    img:hover {
+        filter: grayscale(0%) hue-rotate(100deg) contrast(2000%);
+    }
+}
+
+.logo {
+
+    img:hover {
+        filter: grayscale(100%) hue-rotate(100deg);
+    }
+}
+
+
+.footer_img {
+    
+    img:hover {
+        transform: scale(1.1);
+    }
+}
+
+/* -------------------------------------------------------------*/
+
+
+
+/* -------------------------- CURSOR ----------------------------*/
+// a, button {
+//     &:hover {
+//         cursor: auto;
+//     }
+// }

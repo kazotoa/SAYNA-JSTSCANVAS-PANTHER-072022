@@ -1,0 +1,62 @@
+header {
+    @extend .d-flex, .flex_center, .w100;
+    height: 12vh;
+}
+
+nav {
+    @extend .d-flex, .flex_between;
+    width: 90%;
+
+    ul {
+        @extend .d-flex, .flex_between;
+        list-style-type: none;
+        width: 40%;
+        
+        li {
+            text-align: center;
+            font-family: 'Beyno';
+            font-size: 20px;
+            width: 30%;
+            
+            .actif {
+                color: var(--purple);
+                text-decoration: underline;
+            }
+            
+            a{
+                font-weight: normal;
+                text-transform: uppercase;
+                &:hover{
+                    color: #fff !important;
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}
+
+
+/* ----------------------------- RESPONSIVE RULES -----------------------------------*/
+
+
+@media (min-width: 320px) and (max-width: 728px) {
+    
+    header {
+
+        .logo {
+            width: 30%;
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+     
+    nav ul {
+        width: 60%;
+
+        a {
+            font-size: 3vw;
+        }
+    }
+}
